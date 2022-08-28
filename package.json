@@ -1,17 +1,30 @@
 {
   "name": "crawlab-node-sdk",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "sdk for crawlab nodejs runtime add data to result collection",
   "main": "./src/index.js",
   "scripts": {
     "build": "npx tsc src/index.ts "
   },
   "author": "easonxie",
+  "keywords": [
+    "crawlab",
+    "spider",
+    "crawlab-sdk"
+  ],
   "license": "MIT",
   "dependencies": {
     "mongodb": "^4.9.0"
   },
+  "engines": {
+    "node": ">=14.0"
+  },
   "devDependencies": {
     "typescript": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyc-cn/crawlab-node-sdk.git"
+  },
+  "homepage": "https://github.com/xyc-cn/crawlab-node-sdk/blob/main/README.md"
 }
