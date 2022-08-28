@@ -62,7 +62,7 @@ test().then(()=>{
 version: '3.3'
 services:
   master:
-    image: node-crawlab
+    image: easonxie/crawlab-nodejs
     container_name: crawlab_master
     restart: always
     environment:
