@@ -1,0 +1,17 @@
+{
+  "name": "crawlab-node-sdk",
+  "version": "0.0.3",
+  "description": "sdk for crawlab nodejs runtime add data to result collection",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "npx tsc src/index.ts "
+  },
+  "author": "easonxie",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^4.9.0"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
